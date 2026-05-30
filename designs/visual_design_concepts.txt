@@ -1,0 +1,84 @@
+Visual Design Concepts for Tea Wellness Website
+
+COLOR PALETTE:
+Primary Colors:
+- Sage Green: #8FBC8F (main brand color, represents nature and wellness)
+- Dark Green: #2E8B57 (accent color for buttons, highlights)
+- Cream: #FFFDD0 (background color, warm and inviting)
+- White: #FFFFFF (clean, minimalist feel)
+
+Secondary Colors:
+- Soft Brown: #A0522D (for text, earthy feel)
+- Light Gray: #F5F5F5 (for subtle backgrounds, dividers)
+- Coral Accent: #FF6B6B (occasional highlight for special offers)
+
+TYPOGRAPHY:
+Headings:
+- Playfair Display (serif) - elegant, sophisticated, pairs well with tea/wellness theme
+- Usage: Logo, main headlines, section titles
+- Weights: Regular, Bold
+
+Body Text:
+- Lato or Open Sans (sans-serif) - clean, highly readable, modern
+- Usage: Product descriptions, blog content, form labels
+- Weights: Regular, Medium, Semi-bold
+
+Accent Text:
+- cursive or handwritten style font for occasional decorative elements (used sparingly)
+- Example: "Hand-blended with care" as a decorative accent
+
+IMAGERY STYLE:
+- Photography: High-quality, natural lighting
+- Subjects: Tea plantations, close-ups of tea leaves, tea being poured, people enjoying tea in serene settings
+- Color tone: Warm, slightly muted to match earthy palette
+- Composition: Lots of negative space, rule of thirds, focus on textures and details
+- Avoid: Overly staged or artificial-looking photos
+
+ICONOGRAPHY:
+- Style: Line icons with slight rounded ends, consistent stroke weight
+- Colors: Primarily dark green or cream, with hover effects to sage green
+- Subjects: Leaf (organic), cup (tea), heart (health), globe (sustainable), leaf bundle (variety)
+
+BUTTON STYLES:
+Primary Button:
+- Background: Sage green (#8FBC8F)
+- Text: White
+- Hover: Dark green (#2E8B57) with slight scale transformation
+- Border: None, radius: 8px
+
+Secondary Button:
+- Background: Transparent
+- Border: 2px solid sage green
+- Text: Sage green
+- Hover: Background sage green, text white
+
+FORM ELEMENTS:
+- Input fields: White background, dark gray text, sage green border on focus
+- Radius: 6px
+- Padding: 12px
+- Error state: Light red border (#FF6B6B)
+
+SPACING AND LAYOUT:
+- Base spacing unit: 8px
+- Section padding: 64px top/bottom on desktop, 32px on mobile
+- Container max-width: 1200px
+- Grid system: 12-column flexible grid
+- Card elevation: Subtle shadow (0 2px 4px rgba(0,0,0,0.05))
+
+HOVER AND INTERACTION EFFECTS:
+- Buttons: Scale 1.02, color shift
+- Product cards: Lift effect (translateY(-4px)), shadow increase
+- Links: Color change to dark green, underline on hover
+- Navigation items: Underline appear on hover
+
+MOBILE SPECIFIC:
+- Hamburger menu: Three lines to arrow/close icon transformation
+- Touch targets: Minimum 48x48px
+- Swipe gestures: For testimonials and product carousels
+- Collapsible sections: For FAQs and detailed information
+
+ACCESSIBILITY:
+- Color contrast: All text meets WCAG AA standards
+- Font sizes: Minimum 16px for body text
+- Focus states: Visible outline for keyboard navigation
+- Alt text: Descriptive for all meaningful images

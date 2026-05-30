@@ -1,0 +1,54 @@
+Desktop Wireframe for Tea Wellness Website
+
+Header:
+- Logo (left) | Navigation menu (center) | Search icon + Cart icon (right)
+- Navigation links: Home, Shop, About, Benefits, Blog, Contact
+
+Hero Section:
+- Split layout: Left side (text), Right side (image)
+- Left: Headline "Discover Natural Wellness", Subheadline, Two buttons (Primary: Shop Collection, Secondary: Learn More)
+- Right: High-quality hero image of tea leaves/tea plantation
+
+Features Section:
+- 3-column grid layout
+- Each feature: Icon, heading, brief description
+- Icons: Leaf (Organic), Globe (Sustainable), Heart (Health Benefits)
+
+Product Showcase:
+- Header: "Featured Teas" + "View All" link
+- Grid layout (3-4 columns) of product cards
+- Each card: Image overlay, tea name, category badge, price, quick-view button on hover
+
+About Section:
+- Two-column layout
+- Left: Brief brand story with image/video
+- Right: Mission statement, values, or key facts
+
+Benefits Section:
+- Icon/text blocks in grid format
+- Health benefits with corresponding icons and short descriptions
+
+Testimonials:
+- Slider/carousel or grid of testimonial cards
+- Each card: customer photo, quote, name, location
+
+Newsletter:
+- Prominent section with headline and brief description
+- Email input field + submit button
+- Small print about privacy
+
+Footer:
+- Four-column layout
+- Column 1: Logo + brief brand description
+- Column 2: Navigation links (About, Shop, Blog, Contact, Careers)
+- Column 3: Resources (Benefits, Brewing Guide, Recipes, Sustainability)
+- Column 4: Social media links + newsletter signup mini-form
+- Bottom: Copyright, legal links, payment icons
+
+Design Notes:
+- Color palette: Sage green (#8FBC8F), Cream (#FFFDD0), Dark green (#2E8B57), White
+- Typography: Headings - Playfair Display (serif), Body - Lato or Open Sans (sans-serif)
+- Imagery: High-resolution, lifestyle-oriented photos showing tea in natural settings
+- Spacing: Ample white space, consistent padding/margins
+- Hover effects: Subtle scale changes, color shifts for buttons and product cards
+- Mobile responsiveness: All elements stack appropriately on smaller screens

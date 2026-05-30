@@ -1,0 +1,44 @@
+Mobile Wireframe for Tea Wellness Website
+
+Header:
+- Logo (left) | Search icon (center) | Menu/hamburger icon (right)
+
+Hero Section:
+- Full-width background image of tea leaves/tea cup
+- Overlay text: "Discover Natural Wellness"
+- Subtext: "Premium teas for mind and body"
+- Primary button: "Shop Our Collection"
+- Secondary button: "Learn About Benefits"
+
+Features Section:
+- 3-column stacked layout (mobile)
+- Each column: Icon + short text (e.g., "Organic", "Sustainably Sourced", "Health Benefits")
+
+Product Highlights:
+- Horizontal scrollable carousel (or vertical stack) of featured teas
+- Each tea card: Image, name, short description, price, "Add to Cart" button
+
+About Section:
+- Brief brand story with image on one side, text on the other (stacked on mobile)
+- Call-to-action: "Our Story"
+
+Testimonials:
+- Vertical stack of testimonial cards
+- Each card: quote, customer name, photo
+
+Newsletter:
+- Input field for email
+- Submit button: "Subscribe for 10% Off"
+
+Footer:
+- Column 1: Logo + brief description
+- Column 2: Quick Links (About, Shop, Blog, Contact)
+- Column 3: Social Media Icons
+- Column 4: Newsletter signup (mini)
+- Bottom: Copyright and legal links
+
+Design Notes:
+- Color palette: Earthy greens, warm beiges, soft whites
+- Typography: Clean sans-serif for body, elegant serif for headings
+- Imagery: High-quality photos of tea plantations, tea cups, natural ingredients
+- Spacing: Generous padding and white space for calm, inviting feel
