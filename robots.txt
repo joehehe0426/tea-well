@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joehehe0426.github.io/tea-well/sitemap.xml
