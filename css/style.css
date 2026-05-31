@@ -1,10 +1,10 @@
-﻿/* =============================================
-   Tea Well ??憓冽偌瘥?憸冽 Ink Wash Calligraphy
-   Inspired by Chinese ink painting (瘞游◢??
-   and calligraphy (?豢?)
+/* =============================================
+   Tea Well — 墨水毛筆風格 Ink Wash Calligraphy
+   Inspired by Chinese ink painting (水墨畫)
+   and calligraphy (書法)
    ============================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&family=ZCOOL+XiaoWei&family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
 
 /* ========== RESET & BASE ========== */
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
@@ -14,7 +14,7 @@ body {
     font-weight:400;
     line-height:1.8;
     color:#2a2a2a;
-    background:#ffffff; /* 摰?爾??rice paper */
+    background:#f5f0e8; /* 宣纸色 rice paper */
     -webkit-font-smoothing:antialiased;
 }
 ::selection { background:#1a1a1a; color:#f5f0e8; }
@@ -66,9 +66,9 @@ body::before {
     align-items:center; justify-content:center;
     width:auto;
     padding:4px 6px 4px 4px;
-    background:#c23b22; /* ?梁?蝝?*/
+    background:#c23b22; /* 朱砂紅 */
     color:#f5f0e8;
-    font-family:'ZCOOL XiaoWei', cursive;
+    font-family:'Ma Shan Zheng', cursive;
     font-size:0.85rem;
     line-height:1;
     letter-spacing:2px;
@@ -109,7 +109,7 @@ body::before {
     letter-spacing:0.5px;
 }
 .lang-btn:hover { color:#b8b0a0; }
-.lang-btn.active { background:#ffffff; color:#1a1a1a; }
+.lang-btn.active { background:#f5f0e8; color:#1a1a1a; }
 
 /* ========== HEADER ========== */
 header {
@@ -139,14 +139,14 @@ header .container {
     flex-shrink:0;
 }
 .logo-seal span {
-    font-family:'ZCOOL XiaoWei', cursive;
+    font-family:'Ma Shan Zheng', cursive;
     color:#f5f0e8;
     font-size:1.2rem;
     line-height:1;
     letter-spacing:1px;
 }
 .logo-text h1 {
-    font-family:'ZCOOL XiaoWei', 'Playfair Display', cursive;
+    font-family:'Ma Shan Zheng', 'Playfair Display', cursive;
     font-size:1.6rem;
     font-weight:400;
     color:#f5f0e8;
@@ -179,14 +179,14 @@ nav a::after {
     transform:translateX(-50%);
     width:0;
     height:1px;
-    background:#ffffff;
+    background:#f5f0e8;
     transition:width 0.3s ease;
 }
 nav a:hover { color:#f5f0e8; }
 nav a:hover::after { width:80%; }
 
 .mobile-menu-icon { display:none; flex-direction:column; gap:4px; cursor:pointer; }
-.mobile-menu-icon span { width:22px; height:1.5px; background:#ffffff; transition:all 0.3s; }
+.mobile-menu-icon span { width:22px; height:1.5px; background:#f5f0e8; transition:all 0.3s; }
 
 /* ========== HERO ========== */
 .hero {
@@ -232,7 +232,7 @@ nav a:hover::after { width:80%; }
     padding:6px 14px;
     background:#c23b22;
     color:#f5f0e8;
-    font-family:'ZCOOL XiaoWei', cursive;
+    font-family:'Ma Shan Zheng', cursive;
     font-size:0.95rem;
     letter-spacing:2px;
     transform:rotate(-2deg);
@@ -241,7 +241,7 @@ nav a:hover::after { width:80%; }
     border-radius:2px;
 }
 .hero-content h2 {
-    font-family:'ZCOOL XiaoWei', 'Playfair Display', cursive;
+    font-family:'Ma Shan Zheng', 'Playfair Display', cursive;
     font-size:4rem;
     font-weight:400;
     line-height:1.2;
@@ -294,7 +294,7 @@ nav a:hover::after { width:80%; }
     content:'';
     position:absolute;
     inset:0;
-    background:#ffffff;
+    background:#f5f0e8;
     transform:scaleX(0);
     transform-origin:right;
     transition:transform 0.4s ease;
@@ -313,7 +313,7 @@ nav a:hover::after { width:80%; }
 section { padding:6rem 0; }
 section:nth-child(even) { background:rgba(0,0,0,0.02); }
 section h2 {
-    font-family:'ZCOOL XiaoWei', 'Playfair Display', cursive;
+    font-family:'Ma Shan Zheng', 'Playfair Display', cursive;
     font-size:2.6rem;
     font-weight:400;
     color:#1a1a1a;
@@ -332,7 +332,7 @@ section h2::after {
 }
 
 /* ========== ABOUT / OUR STORY ========== */
-.about { background:#ffffff; }
+.about { background:#f5f0e8; }
 .about-content { display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center; }
 .about-text { }
 .about-text h2 { text-align:left; }
@@ -365,7 +365,7 @@ section h2::after {
 }
 .about-image .placeholder-icon { font-size:3rem; margin-bottom:0.5rem; }
 .about-image .placeholder-text {
-    font-family:'ZCOOL XiaoWei', cursive;
+    font-family:'Ma Shan Zheng', cursive;
     font-size:1.2rem;
     color:#6a5a4a;
 }
@@ -385,7 +385,7 @@ section h2::after {
 .btn-secondary:hover { background:#1a1a1a; color:#f5f0e8; }
 
 /* ========== MENU SECTION ========== */
-.menu { background:#ffffff; }
+.menu { background:#f5f0e8; }
 .menu-category { margin-bottom:3.5rem; }
 .menu-category:last-child { margin-bottom:0; }
 
@@ -396,7 +396,7 @@ section h2::after {
     opacity:0.15;
 }
 .menu-category-header h3 {
-    font-family:'ZCOOL XiaoWei', cursive;
+    font-family:'Ma Shan Zheng', cursive;
     font-size:1.5rem;
     font-weight:400;
     color:#1a1a1a;
@@ -458,7 +458,7 @@ section h2::after {
     bottom:calc(100% + 14px);
     left:50%; transform:translateX(-50%);
     width:130px; height:130px;
-    background:#ffffff;
+    background:#f5f0e8;
     border:1px solid rgba(26,26,26,0.1);
     box-shadow:0 8px 30px rgba(0,0,0,0.12);
     display:flex; align-items:center; justify-content:center;
@@ -485,7 +485,7 @@ section h2::after {
 
 .item-body { flex:1; min-width:0; }
 .item-body h4 {
-    font-family:'ZCOOL XiaoWei', 'Playfair Display', cursive;
+    font-family:'Ma Shan Zheng', 'Playfair Display', cursive;
     font-size:1.05rem;
     font-weight:400;
     color:#1a1a1a;
@@ -568,7 +568,7 @@ section h2::after {
     color:#c23b22;
 }
 .promo-card h3 {
-    font-family:'ZCOOL XiaoWei', 'Playfair Display', cursive;
+    font-family:'Ma Shan Zheng', 'Playfair Display', cursive;
     font-size:1.6rem;
     font-weight:400;
     color:#f5f0e8;
@@ -618,7 +618,7 @@ section h2::after {
     content:'"';
     position:absolute;
     top:-10px; left:15px;
-    font-family:'ZCOOL XiaoWei', cursive;
+    font-family:'Ma Shan Zheng', cursive;
     font-size:3rem;
     color:rgba(26,26,26,0.06);
     line-height:1;
@@ -714,7 +714,7 @@ section h2::after {
 .newsletter-message.error { color:#c23b22; display:block; }
 
 /* ========== CONTACT ========== */
-.contact { background:#ffffff; }
+.contact { background:#f5f0e8; }
 .contact-form { max-width:550px; margin:0 auto; }
 .form-group { margin-bottom:1.5rem; }
 .form-group label {
@@ -769,7 +769,7 @@ footer::before {
     border-bottom:1px solid rgba(245,240,232,0.04);
 }
 .footer-logo .logo-text h1 {
-    font-family:'ZCOOL XiaoWei', 'Playfair Display', cursive;
+    font-family:'Ma Shan Zheng', 'Playfair Display', cursive;
     font-size:1.4rem;
     color:#f5f0e8;
     margin-bottom:0.2rem;
@@ -843,7 +843,7 @@ footer::before {
     display:inline-block;
 }
 .ink-splash::after {
-    content:'??;
+    content:'●';
     position:absolute;
     font-size:120px;
     color:rgba(26,26,26,0.02);
@@ -912,4 +912,3 @@ footer::before {
     .newsletter-form input { border-right:1px solid rgba(245,240,232,0.1); border-bottom:none; }
     .container { padding:0 16px; }
 }
-
