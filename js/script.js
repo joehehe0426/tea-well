@@ -107,3 +107,24 @@ function shareProduct(event, productName) {
     const text = encodeURIComponent('Check out ' + productName + ' from 茶井奶蓋專門店 Tea Well!');
     window.open(`https://wa.me/?text=${text}%20${url}`, '_blank', 'width=600,height=400');
 }
+
+// ===== GRAND UPGRADE: Scroll Reveal Intersection Observer =====
+(function() {
+    const revealElements = document.querySelectorAll('.scroll-reveal');
+    
+    if (!revealElements.length) return;
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('revealed');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -40px 0px'
+    });
+    
+    revealElements.forEach(el => observer.observe(el));
+})();
