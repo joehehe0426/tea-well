@@ -124,12 +124,7 @@ header .container {
     position:relative;
 }
 
-.logo {
-    position:absolute;
-    left:50%;
-    transform:translateX(-50%);
-    z-index:2;
-}
+
 
 
 
@@ -1068,43 +1063,8 @@ footer::after {
 
 
 
-/* ---------- Text Logo: 茶井奶蓋 ---------- */
-.logo-link {
-    font-family: 'Ma Shan Zheng', cursive;
-    font-size: 2.2rem;
-    color: #c23b22;
-    text-decoration: none;
-    letter-spacing: 6px;
-    line-height: 1;
-    display: block;
-    text-align: center;
-    transition: opacity 0.3s ease;
-    position: relative;
-}
-.logo-link:hover {
-    opacity: 0.85;
-}
-/* A subtle red underline stroke on hover */
-.logo-link::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background: #c23b22;
-    transition: width 0.3s ease;
-}
-.logo-link:hover::after {
-    width: 80%;
-}
+
 /* Adjust logo wrapper for text instead of tall image */
-.logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-    line-height: 1;
-}
+
+
 
