@@ -1,4 +1,4 @@
-// Mobile menu toggle
+ï»¿// Mobile menu toggle
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
     const nav = document.querySelector('nav');
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function shareProduct(event, productName) {
     event.preventDefault();
     const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent('Check out ' + productName + ' from ¯ù¤«¥¤»\±Mªù©± Tea Well!');
+    const text = encodeURIComponent('Check out ' + productName + ' from èŒ¶äº•å¥¶è“‹å°ˆé–€åº— Tea Well!');
     window.open(`https://wa.me/?text=${text}%20${url}`, '_blank', 'width=600,height=400');
 }
 
@@ -129,22 +129,4 @@ function shareProduct(event, productName) {
     revealElements.forEach(el => observer.observe(el));
 })();
 
-// ===== Daily Logo Rotation =====
-(function() {
-    const logoPool = [
-    'logo.jpeg',
-    'images/smoothie/ªÛ¤h¬Ó¨~.jpg',
-    'images/milk-foam-tea/¥¤»\¶Â¯QÀs.jpg',
-    'images/fresh-milk/¶Â¿}¬Ã¯]ÂA¥¤.jpg',
-    'images/refreshing/¤ôªG¯ù¥|©u¬K.jpg',
-    'images/milk-tea/¬Ã¯]¥¤¯ù.jpg',
-    'images/fresh-milk/ªÛ¤h¯ó²ù¥¤.jpg'
-];
-    const today = new Date().getDay(); // 0=Sun .. 6=Sat
-    const img = document.querySelector('.logo-img');
-    if (img) {
-        img.src = logoPool[today];
-        img.alt = 'Tea Well ¯ù¤«¥¤»\±Mªù©±';
-    }
-})();
 

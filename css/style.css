@@ -1,7 +1,7 @@
-/* =============================================
-   Tea Well °X æ•§Ù§Úµß≠∑ÆÊ Ink Wash Calligraphy
-   Inspired by Chinese ink painting (§Ùæ•µe)
-   and calligraphy (Æ—™k)
+Ôªø/* =============================================
+   Tea Well ‚Äî Â¢®Ê∞¥ÊØõÁ≠ÜÈ¢®Ê†º Ink Wash Calligraphy
+   Inspired by Chinese ink painting (Ê∞¥Â¢®Áï´)
+   and calligraphy (Êõ∏Ê≥ï)
    ============================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
@@ -14,7 +14,7 @@ body {
     font-weight:400;
     line-height:1.8;
     color:#2a2a2a;
-    background:#f5f0e8; /* ´≈?¶‚ rice paper */
+    background:#f5f0e8; /* ÂÆ£?Ëâ≤ rice paper */
     -webkit-font-smoothing:antialiased;
 }
 ::selection { background:#1a1a1a; color:#f5f0e8; }
@@ -66,7 +66,7 @@ body::before {
     align-items:center; justify-content:center;
     width:auto;
     padding:4px 6px 4px 4px;
-    background:#c23b22; /* ¶∂¨‚¨ı */
+    background:#c23b22; /* Êú±Á†ÇÁ¥Ö */
     color:#f5f0e8;
     font-family:'Ma Shan Zheng', cursive;
     font-size:0.85rem;
@@ -131,11 +131,7 @@ header .container {
     z-index:2;
 }
 
-.logo-img {
-    height:110px;
-    width:auto;
-    display:block;
-}
+
 
 /* ========== NAVIGATION ========== */
 
@@ -839,7 +835,7 @@ footer::before {
     display:inline-block;
 }
 .ink-splash::after {
-    content:'°¥';
+    content:'‚óè';
     position:absolute;
     font-size:120px;
     color:rgba(26,26,26,0.02);
@@ -910,7 +906,7 @@ footer::before {
 }
 
 /* =============================================
-   GRAND UPGRADE °X Scroll Animations & Polish
+   GRAND UPGRADE ‚Äî Scroll Animations & Polish
    ============================================= */
 
 /* ---------- Scroll Reveal Animations ---------- */
@@ -1058,7 +1054,7 @@ footer .footer-content {
     position: relative;
 }
 footer::after {
-    content: 'Ø˘';
+    content: 'Ëå∂';
     position: absolute;
     bottom: 20px;
     right: 40px;
@@ -1070,29 +1066,45 @@ footer::after {
 }
 
 
-/* ---------- Daily Logo Rotation ---------- */
-.logo {
+
+
+/* ---------- Text Logo: Ëå∂‰∫ïÂ•∂Ëìã ---------- */
+.logo-link {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 2.2rem;
+    color: #c23b22;
+    text-decoration: none;
+    letter-spacing: 6px;
+    line-height: 1;
+    display: block;
+    text-align: center;
+    transition: opacity 0.3s ease;
     position: relative;
 }
-.logo::after {
-    content: 'Ø˘§´';
-    position: absolute;
-    bottom: 4px;
-    right: 6px;
-    font-family: 'Ma Shan Zheng', cursive;
-    color: rgba(245,240,232,0.85);
-    font-size: 1.1rem;
-    letter-spacing: 3px;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
-    pointer-events: none;
-    line-height: 1;
-    z-index: 1;
+.logo-link:hover {
+    opacity: 0.85;
 }
-.logo-img {
-    height: 110px;
-    width: auto;
-    max-width: 200px;
-    object-fit: contain;
-    border-radius: 4px;
+/* A subtle red underline stroke on hover */
+.logo-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: #c23b22;
+    transition: width 0.3s ease;
+}
+.logo-link:hover::after {
+    width: 80%;
+}
+/* Adjust logo wrapper for text instead of tall image */
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    line-height: 1;
 }
 
