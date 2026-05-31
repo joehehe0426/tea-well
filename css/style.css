@@ -1069,3 +1069,29 @@ footer::after {
     line-height: 1;
 }
 
+
+/* ---------- Daily Logo Rotation ---------- */
+.logo {
+    position: relative;
+}
+.logo::after {
+    content: 'п∙дл';
+    position: absolute;
+    bottom: 4px;
+    right: 6px;
+    font-family: 'Ma Shan Zheng', cursive;
+    color: rgba(245,240,232,0.85);
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+    pointer-events: none;
+    line-height: 1;
+    z-index: 1;
+}
+.logo-img {
+    height: 110px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    border-radius: 4px;
+}

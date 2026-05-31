@@ -128,3 +128,22 @@ function shareProduct(event, productName) {
     
     revealElements.forEach(el => observer.observe(el));
 })();
+
+// ===== Daily Logo Rotation =====
+(function() {
+    const logoPool = [
+        'logo.jpeg',
+        'images/smoothie/ªÛ¤h¬Ó¨~.jpg',
+        'images/milk-foam-tea/¥¤»\¶Â¯QÀs.jpg',
+        'images/fresh-milk/¶Â¿}¬Ã¯]ÂA¥¤.jpg',
+        'images/refreshing/¤ôªG¯ù¥|©u¬K.jpg',
+        'images/milk-tea/¬Ã¯]¥¤¯ù.jpg',
+        'images/fresh-milk/ªÛ¤h¯ó²ù¥¤.jpg'
+    ];
+    const today = new Date().getDay(); // 0=Sun .. 6=Sat
+    const img = document.querySelector('.logo-img');
+    if (img) {
+        img.src = logoPool[today];
+        img.alt = '¯ù¤«¥¤»\±Mªù©± Tea Well';
+    }
+})();
