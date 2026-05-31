@@ -393,7 +393,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var elementsWithKeys = document.querySelectorAll('[data-key]');
     window._translations = {};
 
-    // Set initial language
+    // Set initial language to Traditional Chinese
     applyLanguage('zh-TW');
 
     langButtons.forEach(function(button) {
