@@ -1,4 +1,4 @@
-ï»¿// Mobile menu toggle
+// Mobile menu toggle
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
     const nav = document.querySelector('nav');
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function shareProduct(event, productName) {
     event.preventDefault();
     const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent('Check out ' + productName + ' from èŒ¶äº•å¥¶è“‹å°ˆé–€åº— Tea Well!');
+    const text = encodeURIComponent('Check out ' + productName + ' from ¯ù¤«¥¤»\±Mªù©± Tea Well!');
     window.open(`https://wa.me/?text=${text}%20${url}`, '_blank', 'width=600,height=400');
 }
 
@@ -133,18 +133,18 @@ function shareProduct(event, productName) {
 (function() {
     const logoPool = [
     'logo.jpeg',
-    'images/smoothie/èŠå£«çš‡èŠ’.jpg',
-    'images/milk-foam-tea/å¥¶è“‹é»‘çƒé¾.jpg',
-    'images/fresh-milk/é»‘ç³–çç é®®å¥¶.jpg',
-    'images/refreshing/æ°´æœèŒ¶å››å­£æ˜¥.jpg',
-    'images/milk-tea/çç å¥¶èŒ¶.jpg',
-    'images/fresh-milk/èŠå£«è‰è“å¥¶.jpg'
+    'images/smoothie/ªÛ¤h¬Ó¨~.jpg',
+    'images/milk-foam-tea/¥¤»\¶Â¯QÀs.jpg',
+    'images/fresh-milk/¶Â¿}¬Ã¯]ÂA¥¤.jpg',
+    'images/refreshing/¤ôªG¯ù¥|©u¬K.jpg',
+    'images/milk-tea/¬Ã¯]¥¤¯ù.jpg',
+    'images/fresh-milk/ªÛ¤h¯ó²ù¥¤.jpg'
 ];
     const today = new Date().getDay(); // 0=Sun .. 6=Sat
     const img = document.querySelector('.logo-img');
     if (img) {
         img.src = logoPool[today];
-        img.alt = 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½Mï¿½ï¿½ï¿½ï¿½ Tea Well';
+        img.alt = 'Tea Well ¯ù¤«¥¤»\±Mªù©±';
     }
 })();
 
