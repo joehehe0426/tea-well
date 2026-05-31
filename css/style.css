@@ -1,7 +1,7 @@
-Ôªø/* =============================================
-   Tea Well ‚Äî Â¢®Ê∞¥ÊØõÁ≠ÜÈ¢®Ê†º Ink Wash Calligraphy
-   Inspired by Chinese ink painting (Ê∞¥Â¢®Áï´)
-   and calligraphy (Êõ∏Ê≥ï)
+/* =============================================
+   Tea Well °X æ•§Ù§Úµß≠∑ÆÊ Ink Wash Calligraphy
+   Inspired by Chinese ink painting (§Ùæ•µe)
+   and calligraphy (Æ—™k)
    ============================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
@@ -14,24 +14,13 @@ body {
     font-weight:400;
     line-height:1.8;
     color:#2a2a2a;
-    background:#f5f0e8; /* ÂÆ£?Ëâ≤ rice paper */
+    background:#f5f0e8; /* ´≈?¶‚ rice paper */
     -webkit-font-smoothing:antialiased;
 }
 ::selection { background:#1a1a1a; color:#f5f0e8; }
 .container { width:90%; max-width:1200px; margin:0 auto; padding:0 20px; }
 
-/* ========== INK WASH TEXTURE OVERLAY ========== */
-body::before {
-    content:'';
-    position:fixed;
-    inset:0;
-    background:
-        radial-gradient(ellipse at 20% 30%, rgba(0,0,0,0.02) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 70%, rgba(0,0,0,0.015) 0%, transparent 50%),
-        radial-gradient(ellipse at 50% 0%, rgba(0,0,0,0.01) 0%, transparent 40%);
-    pointer-events:none;
-    z-index:9998;
-}
+
 
 /* ========== BRUSH STROKE DIVIDER ========== */
 .ink-divider {
@@ -66,7 +55,7 @@ body::before {
     align-items:center; justify-content:center;
     width:auto;
     padding:4px 6px 4px 4px;
-    background:#c23b22; /* Êú±Á†ÇÁ¥Ö */
+    background:#c23b22; /* ¶∂¨‚¨ı */
     color:#f5f0e8;
     font-family:'Ma Shan Zheng', cursive;
     font-size:0.85rem;
@@ -830,7 +819,7 @@ footer::before {
     display:inline-block;
 }
 .ink-splash::after {
-    content:'‚óè';
+    content:'°¥';
     position:absolute;
     font-size:120px;
     color:rgba(26,26,26,0.02);
@@ -901,7 +890,7 @@ footer::before {
 }
 
 /* =============================================
-   GRAND UPGRADE ‚Äî Scroll Animations & Polish
+   GRAND UPGRADE °X Scroll Animations & Polish
    ============================================= */
 
 /* ---------- Scroll Reveal Animations ---------- */
@@ -962,19 +951,8 @@ footer::before {
     z-index: 0;
     pointer-events: none;
 }
-/* Add subtle animated grain overlay */
-.hero::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
-    opacity: 0.3;
-    z-index: 0;
-    pointer-events: none;
-    animation: grainShift 8s steps(6) infinite;
-}
-@keyframes grainShift {
-    0% { transform: translate(0, 0); }
+
+
     20% { transform: translate(-5px, 3px); }
     40% { transform: translate(3px, -5px); }
     60% { transform: translate(-3px, 5px); }
@@ -1049,7 +1027,7 @@ footer .footer-content {
     position: relative;
 }
 footer::after {
-    content: 'Ëå∂';
+    content: 'Ø˘';
     position: absolute;
     bottom: 20px;
     right: 40px;
