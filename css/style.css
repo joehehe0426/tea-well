@@ -1,7 +1,7 @@
-/* =============================================
-   Tea Well °X æ•§Ù§Úµß≠∑ÆÊ Ink Wash Calligraphy
-   Inspired by Chinese ink painting (§Ùæ•µe)
-   and calligraphy (Æ—™k)
+Ôªø/* =============================================
+   Tea Well ‚Äî Â¢®Ê∞¥ÊØõÁ≠ÜÈ¢®Ê†º Ink Wash Calligraphy
+   Inspired by Chinese ink painting (Ê∞¥Â¢®Áï´)
+   and calligraphy (Êõ∏Ê≥ï)
    ============================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
@@ -14,7 +14,7 @@ body {
     font-weight:400;
     line-height:1.8;
     color:#2a2a2a;
-    background:#f5f0e8; /* ´≈?¶‚ rice paper */
+    background:#f5f0e8; /* ÂÆ£?Ëâ≤ rice paper */
     -webkit-font-smoothing:antialiased;
 }
 ::selection { background:#1a1a1a; color:#f5f0e8; }
@@ -55,7 +55,7 @@ body {
     align-items:center; justify-content:center;
     width:auto;
     padding:4px 6px 4px 4px;
-    background:#c23b22; /* ¶∂¨‚¨ı */
+    background:#c23b22; /* Êú±Á†ÇÁ¥Ö */
     color:#f5f0e8;
     font-family:'Ma Shan Zheng', cursive;
     font-size:0.85rem;
@@ -176,9 +176,7 @@ nav a:hover::after { width:80%; }
             rgba(26,26,26,0.98) 0%,
             rgba(40,35,30,0.95) 40%,
             rgba(60,50,40,0.9) 70%,
-            rgba(80,65,50,0.7) 100%
-        ),
-        radial-gradient(ellipse at 50% 20%, rgba(194,59,34,0.08) 0%, transparent 60%);
+            rgba(80,65,50,0.7) 100%);
     color:#f5f0e8;
     padding:8rem 0 7rem;
     position:relative;
@@ -188,17 +186,7 @@ nav a:hover::after { width:80%; }
     display:flex;
     align-items:center;
 }
-/* Ink splash decorative element */
-.hero::before {
-    content:'';
-    position:absolute;
-    top:-10%; right:-5%;
-    width:300px; height:300px;
-    background:radial-gradient(circle, rgba(0,0,0,0.15) 0%, transparent 70%);
-    border-radius:50%;
-    filter:blur(40px);
-    pointer-events:none;
-}
+
 .hero::after {
     content:'';
     position:absolute;
@@ -819,7 +807,7 @@ footer::before {
     display:inline-block;
 }
 .ink-splash::after {
-    content:'°¥';
+    content:'‚óè';
     position:absolute;
     font-size:120px;
     color:rgba(26,26,26,0.02);
@@ -890,7 +878,7 @@ footer::before {
 }
 
 /* =============================================
-   GRAND UPGRADE °X Scroll Animations & Polish
+   GRAND UPGRADE ‚Äî Scroll Animations & Polish
    ============================================= */
 
 /* ---------- Scroll Reveal Animations ---------- */
@@ -946,10 +934,7 @@ footer::before {
             rgba(26,26,26,0.92) 0%,
             rgba(26,26,26,0.7) 50%,
             rgba(26,26,26,0.92) 100%
-        ),
-        radial-gradient(ellipse at 50% 20%, rgba(194,59,34,0.06) 0%, transparent 60%);
-    z-index: 0;
-    pointer-events: none;
+        )
 }
 
 
@@ -1027,7 +1012,7 @@ footer .footer-content {
     position: relative;
 }
 footer::after {
-    content: 'Ø˘';
+    content: 'Ëå∂';
     position: absolute;
     bottom: 20px;
     right: 40px;
@@ -1043,6 +1028,9 @@ footer::after {
 
 
 /* Adjust logo wrapper for text instead of tall image */
+
+
+
 
 
 
