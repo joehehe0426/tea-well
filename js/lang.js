@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
             item5_3: "More Specials",
             item5_3Desc: "Ask in-store for seasonal specials",
             addOns: "Add-Ons",
-            addOnsDesc: "Boba +\ | Coconut Jelly +\ | Herbal Jelly +\",
+            addOnsDesc: "Boba +\$ | Coconut Jelly +\$ | Herbal Jelly +\$",
             unlimitedRefill: "\uD83E\uDD47 王牌芝士奶蓋 — Unlimited Cheese Foam Refills",
             promosTitle: "Promotions",
             promo1Badge: "SIGNATURE",
