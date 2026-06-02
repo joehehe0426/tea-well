@@ -449,7 +449,7 @@ section h2::after {
 
 .item-body { flex:1; min-width:0; }
 .item-body h4 {
-    font-family:'ZCOOL XiaoWei', 'Ma Shan Zheng', 'Playfair Display', 'Noto Serif SC', cursive;
+    font-family:'Noto Serif SC', 'ZCOOL XiaoWei', 'Ma Shan Zheng', 'Playfair Display', cursive;
     font-size:1.05rem;
     font-weight:400;
     color:#1a1a1a;
