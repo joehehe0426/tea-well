@@ -1,9 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://joehehe0426.github.io/tea-well/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/coffee/奶蓋咖啡.jpg</image:loc>
+    <image:title>Tea Well - coffee/奶蓋咖啡</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/coffee/意式咖啡.jpg</image:loc>
+    <image:title>Tea Well - coffee/意式咖啡</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/coffee/黑烏龍美式.jpg</image:loc>
+    <image:title>Tea Well - coffee/黑烏龍美式</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/OREO忌廉芝士牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/OREO忌廉芝士牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/原味牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/原味牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/忌廉芝士牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/忌廉芝士牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/抹茶忌廉芝士牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/抹茶忌廉芝士牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/朱古力忌廉芝士牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/朱古力忌廉芝士牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/煙肉芝士牛角包窩夫.jpeg</image:loc>
+    <image:title>Tea Well - croissant-waffle/煙肉芝士牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/白雪牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/白雪牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/肉鬆芋泥牛角包窩夫.jpeg</image:loc>
+    <image:title>Tea Well - croissant-waffle/肉鬆芋泥牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/花生朱古力牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/花生朱古力牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/草莓忌廉芝士牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/草莓忌廉芝士牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/croissant-waffle/香蕉朱古力榛子牛角包窩夫.jpg</image:loc>
+    <image:title>Tea Well - croissant-waffle/香蕉朱古力榛子牛角包窩夫</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/fresh-milk/OREO芋泥鮮奶.jpg</image:loc>
+    <image:title>Tea Well - fresh-milk/OREO芋泥鮮奶</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/fresh-milk/手作香芋鮮奶.jpg</image:loc>
+    <image:title>Tea Well - fresh-milk/手作香芋鮮奶</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/fresh-milk/芝士草莓奶.jpg</image:loc>
+    <image:title>Tea Well - fresh-milk/芝士草莓奶</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/fresh-milk/黑糖珍珠鮮奶.jpg</image:loc>
+    <image:title>Tea Well - fresh-milk/黑糖珍珠鮮奶</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-foam-tea/四季春或蜜桃烏龍.jpg</image:loc>
+    <image:title>Tea Well - milk-foam-tea/四季春或蜜桃烏龍</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-foam-tea/奶蓋四季春或蜜桃烏龍.jpg</image:loc>
+    <image:title>Tea Well - milk-foam-tea/奶蓋四季春或蜜桃烏龍</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-foam-tea/奶蓋桂花烏龍.jpg</image:loc>
+    <image:title>Tea Well - milk-foam-tea/奶蓋桂花烏龍</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-foam-tea/奶蓋黑烏龍.jpg</image:loc>
+    <image:title>Tea Well - milk-foam-tea/奶蓋黑烏龍</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-foam-tea/黃金桂花.jpg</image:loc>
+    <image:title>Tea Well - milk-foam-tea/黃金桂花</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-foam-tea/黑烏龍.jpg</image:loc>
+    <image:title>Tea Well - milk-foam-tea/黑烏龍</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-tea/仙草奶茶.jpg</image:loc>
+    <image:title>Tea Well - milk-tea/仙草奶茶</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-tea/珍珠奶茶.jpg</image:loc>
+    <image:title>Tea Well - milk-tea/珍珠奶茶</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/milk-tea/黑糖波霸奶茶.jpg</image:loc>
+    <image:title>Tea Well - milk-tea/黑糖波霸奶茶</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/refreshing/寒天紅柚.jpg</image:loc>
+    <image:title>Tea Well - refreshing/寒天紅柚</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/refreshing/寒天菠蘿.jpg</image:loc>
+    <image:title>Tea Well - refreshing/寒天菠蘿</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/refreshing/椰果金鳳梨.jpg</image:loc>
+    <image:title>Tea Well - refreshing/椰果金鳳梨</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/refreshing/水果茶四季春.jpg</image:loc>
+    <image:title>Tea Well - refreshing/水果茶四季春</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/refreshing/百香椰果四季春.jpg</image:loc>
+    <image:title>Tea Well - refreshing/百香椰果四季春</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/refreshing/荔枝蜂蜜蘆薈.jpg</image:loc>
+    <image:title>Tea Well - refreshing/荔枝蜂蜜蘆薈</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/sets/Set A.jpeg</image:loc>
+    <image:title>Tea Well - sets/Set A</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/sets/Set B.jpeg</image:loc>
+    <image:title>Tea Well - sets/Set B</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/smoothie/芝士皇芒.jpg</image:loc>
+    <image:title>Tea Well - smoothie/芝士皇芒</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/smoothie/芝士西瓜.jpg</image:loc>
+    <image:title>Tea Well - smoothie/芝士西瓜</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 嫩滑橙腸 2.jpg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 嫩滑橙腸 2</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 嫩滑橙腸.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 嫩滑橙腸</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 惹味豬脷.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 惹味豬脷</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 招牌反腸 2.jpg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 招牌反腸 2</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 招牌反腸.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 招牌反腸</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 招牌小什錦.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 招牌小什錦</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 爽滑生腸 2.jpg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 爽滑生腸 2</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 爽滑生腸.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 爽滑生腸</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 爽脆牛柏葉 2.jpg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 爽脆牛柏葉 2</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 爽脆牛柏葉.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 爽脆牛柏葉</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 脆口豬耳 2.jpg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 脆口豬耳 2</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 脆口豬耳.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 脆口豬耳</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 香口紅腸.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 香口紅腸</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 香脆火雞腎.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 香脆火雞腎</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 鹵水墨魚 2.jpg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 鹵水墨魚 2</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/元朗鬼巴士 - 鹵水墨魚.jpeg</image:loc>
+    <image:title>Tea Well - snacks/元朗鬼巴士 - 鹵水墨魚</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/店主最喜愛既魚肉燒賣(7粒) 2.jpg</image:loc>
+    <image:title>Tea Well - snacks/店主最喜愛既魚肉燒賣(7粒) 2</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/店主最喜愛既魚肉燒賣(7粒).jpeg</image:loc>
+    <image:title>Tea Well - snacks/店主最喜愛既魚肉燒賣(7粒)</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/snacks/手工餅乾.jpeg</image:loc>
+    <image:title>Tea Well - snacks/手工餅乾</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/special/奶蓋抹茶.jpg</image:loc>
+    <image:title>Tea Well - special/奶蓋抹茶</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/special/抹茶拿鐵.jpg</image:loc>
+    <image:title>Tea Well - special/抹茶拿鐵</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/special/特濃朱古力.jpg</image:loc>
+    <image:title>Tea Well - special/特濃朱古力</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/storefront.jpg</image:loc>
+    <image:title>Tea Well - storefront</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/winter/WhatsApp Image 2026-01-06 at 13.13.04 (1).jpeg</image:loc>
+    <image:title>Tea Well - winter/WhatsApp Image 2026-01-06 at 13.13.04 (1)</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/winter/WhatsApp Image 2026-01-06 at 13.13.04.jpeg</image:loc>
+    <image:title>Tea Well - winter/WhatsApp Image 2026-01-06 at 13.13.04</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://joehehe0426.github.io/tea-well/images/winter/WhatsApp Image 2026-01-06 at 13.13.05.jpeg</image:loc>
+    <image:title>Tea Well - winter/WhatsApp Image 2026-01-06 at 13.13.05</image:title>
+  </image:image>
+  </url>
+  <url>
+    <loc>https://joehehe0426.github.io/tea-well/#menu</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://joehehe0426.github.io/tea-well/#about</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://joehehe0426.github.io/tea-well/#contact</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

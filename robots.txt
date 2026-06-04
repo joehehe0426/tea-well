@@ -1,4 +1,17 @@
+﻿# Tea Well SEO - Enhanced robots.txt
 User-agent: *
 Allow: /
+Allow: /images/
+Allow: /js/
+Allow: /lang/
+Allow: /menu.pdf
 
+# Disallow internal/cache files
+Disallow: /.git/
+Disallow: /build_*.js
+
+# Sitemap
 Sitemap: https://joehehe0426.github.io/tea-well/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
