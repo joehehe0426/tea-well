@@ -938,12 +938,6 @@ footer::before {
 }
 
 
-    20% { transform: translate(-5px, 3px); }
-    40% { transform: translate(3px, -5px); }
-    60% { transform: translate(-3px, 5px); }
-    80% { transform: translate(5px, -3px); }
-    100% { transform: translate(0, 0); }
-}
 .hero-content { z-index: 1; }
 
 /* ---------- About Photo Styling ---------- */
