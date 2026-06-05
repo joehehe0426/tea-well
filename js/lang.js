@@ -97,8 +97,8 @@ document.addEventListener('DOMContentLoaded', function() {
             promo1Title: "王牌芝士奶蓋 Cheese Milk Foam",
             promo1Text: "Any cheese milk foam drink comes with unlimited cheese foam refills. Yes, unlimited!",
             promo2Badge: "DEAL",
-            promo2Title: "\ Plain Tea",
-            promo2Text: "Get any plain pure tea for just \. Limited time offer.",
+            promo2Title: "$1 Plain Tea",
+            promo2Text: "Get any plain tea for just $1. Limited time offer.",
             promo3Badge: "SET",
             promo3Title: "Set A Special",
             promo3Text: "Medium milk foam tea + croissant waffle — perfect pairing!",
@@ -124,7 +124,8 @@ document.addEventListener('DOMContentLoaded', function() {
             formError: "Please fill in all fields",
             formEmailError: "Please enter a valid email address",
             footerDesc: "茶井奶蓋專門店 Tea Well — premium cheese milk foam tea in Cheung Sha Wan. Handcrafted daily with love.",
-            socialFollowText: "Follow us on Instagram &amp; Facebook for daily updates!"
+            socialFollowText: "Follow us on Instagram &amp; Facebook for daily updates!",
+            footerSiteTitle: "Tea Well"
         },
         "zh-TW": {
             siteTitle: "茶井奶蓋專門店 Tea Well - 長沙灣芝士奶蓋茶",
@@ -221,8 +222,8 @@ document.addEventListener('DOMContentLoaded', function() {
             promo1Title: "王牌芝士奶蓋 Cheese Milk Foam",
             promo1Text: "任何芝士奶蓋飲品均可無限次添加芝士奶蓋。是的，無限添加！",
             promo2Badge: "優惠",
-            promo2Title: " 純茶",
-            promo2Text: "任何純茶只需 。限時優惠。",
+            promo2Title: "$1 純茶",
+            promo2Text: "任何純茶只需$1。限時優惠。",
             promo3Badge: "套餐",
             promo3Title: "套餐A優惠",
             promo3Text: "中杯奶蓋茶 + 牛角包窩夫 — 完美配搭！",
@@ -248,7 +249,8 @@ document.addEventListener('DOMContentLoaded', function() {
             formError: "請填寫所有欄位",
             formEmailError: "請輸入有效的電郵地址",
             footerDesc: "茶井奶蓋專門店 Tea Well — 長沙灣頂級芝士奶蓋茶。每日用心手作。",
-            socialFollowText: "在 Instagram 和 Facebook 上關注我們，獲取每日最新資訊！"
+            socialFollowText: "在 Instagram 和 Facebook 上關注我們，獲取每日最新資訊！",
+            footerSiteTitle: "茶井"
         },
         "zh-CN": {
             siteTitle: "茶井奶盖专门店 Tea Well - 长沙湾芝士奶盖茶",
@@ -345,8 +347,8 @@ document.addEventListener('DOMContentLoaded', function() {
             promo1Title: "王牌芝士奶盖 Cheese Milk Foam",
             promo1Text: "任何芝士奶盖饮品均可无限次添加芝士奶盖。是的，无限添加！",
             promo2Badge: "优惠",
-            promo2Title: " 纯茶",
-            promo2Text: "任何纯茶只需 。限时优惠。",
+            promo2Title: "$1 纯茶",
+            promo2Text: "任何纯茶只需$1。限时优惠。",
             promo3Badge: "套餐",
             promo3Title: "套餐A优惠",
             promo3Text: "中杯奶盖茶 + 牛角包窝夫 — 完美配搭！",
@@ -372,7 +374,8 @@ document.addEventListener('DOMContentLoaded', function() {
             formError: "请填写所有字段",
             formEmailError: "请输入有效的电邮地址",
             footerDesc: "茶井奶盖专门店 Tea Well — 长沙湾顶级芝士奶盖茶。每日用心手作。",
-            socialFollowText: "在 Instagram 和 Facebook 上关注我们，获取每日最新资讯！"
+            socialFollowText: "在 Instagram 和 Facebook 上关注我们，获取每日最新资讯！",
+            footerSiteTitle: "茶井"
         }
     };
 
@@ -429,6 +432,12 @@ document.addEventListener('DOMContentLoaded', function() {
         var announce = document.querySelector('.announcement-bar span');
         if (announce && t.announcementText) announce.textContent = t.announcementText;
 
+        // Update footer site title
+        var footerTitle = document.getElementById("footerSiteTitle");
+        if (footerTitle) {
+            var t = TRANSLATIONS[langCode];
+            footerTitle.textContent = (t && t.footerSiteTitle) || "Tea Well";
+        }
         // HTML lang
         if (langCode === 'en') document.documentElement.lang = 'en';
         else if (langCode === 'zh-TW') document.documentElement.lang = 'zh-TW';
