@@ -196,7 +196,7 @@
 <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&family=Noto+Serif+SC:wght@400;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=block" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <!-- GEO: BreadcrumbList Schema -->
     <script type="application/ld+json">
@@ -364,6 +364,7 @@
     </script>
 
 
+    <style>html{visibility:hidden}</style>
 </head>
 <body>
     <!-- Announcement Bar -->
@@ -837,7 +838,11 @@
 
     <script src="js/lang.js?v=2"></script>
     <script src="js/script.js?v=2"></script>
-</body>
+    <script>
+      document.fonts.ready.then(function(){document.documentElement.style.visibility='visible';});
+      setTimeout(function(){document.documentElement.style.visibility='visible';},3000);
+    </script>
+  </body>
 </html>
 
 
